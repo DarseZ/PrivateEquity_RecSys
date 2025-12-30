@@ -72,9 +72,9 @@ jupyter notebook notebooks/data_generation.ipynb
 ```
 
 This creates:
-- 50 investors with features (type, region, risk profile, investment range)
+- 125 investors with features (type, region, risk profile, investment range)
 - 1,000 deals with features (sector, stage, region, financials)
-- 500 interactions with preference-based patterns
+- 2,000 interactions with preference-based patterns
 
 ### 2. Train Models
 
@@ -124,13 +124,6 @@ This computes:
 - **Two-Stage Pipeline**: Combines efficiency and accuracy
 - **Comprehensive Evaluation**: Multiple ranking metrics
 
-## Results
-
-Typical performance (will vary with random seeds):
-- Two-Tower Hit@10: ~8-12%
-- Deep Ranking Hit@10: ~5-8%
-- Two-Stage Hit@10: ~8-12%
-
 ## Extending the System
 
 ### Adding New Features
@@ -152,14 +145,14 @@ Typical performance (will vary with random seeds):
 
 If you use this code, please cite:
 ```
-@software{investor_deal_recommender,
-  title = {Investor-Deal Recommender System},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/investor-deal-recommender}
+@software{PrivateEquity_RecSys,
+  title = {two-stage PE recommender},
+  author = {czhang165},
+  year = {2025},
+  url = {https://github.com/czhang165/PrivateEquity_RecSys}
 }
 ```
 
 ## License
 
-MIT License - see LICENSE file for details
+GNU General Public License v3.0 - see LICENSE file for details
